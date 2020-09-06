@@ -19,10 +19,10 @@ http://localhost:8080/swagger-ui.html#/data-source-controller
 
 #### export entities 
 
-http://localhost:8080/{dataSourceId}:export-entity
+http://localhost:8080/{dataSourceId}:export-entity?schema=
 
 #### export mysql to postgres ddl
 
 
-http://localhost:8080/{dataSourceId}:mysql-to-postgres-ddl
+http://localhost:8080/{dataSourceId}:mysql-to-postgres-ddl?schema=
 
