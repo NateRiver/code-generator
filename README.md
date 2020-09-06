@@ -6,6 +6,7 @@
 
 ### Start the application
 mvn clean package
+
 java -jar target/code-generator*.jar
 
  
